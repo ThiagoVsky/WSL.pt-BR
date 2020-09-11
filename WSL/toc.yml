@@ -24,6 +24,8 @@
       href: tutorials/wsl-git.md
     - name: Introdução aos bancos de dados
       href: tutorials/wsl-database.md
+    - name: Introdução aos contêineres remotos do Docker
+      href: tutorials/wsl-containers.md
     - name: Configurar aceleração de GPU (NVIDIA CUDA/DirectML)
       href: tutorials/gpu-compute.md
 - name: Instruções
