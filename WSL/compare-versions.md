@@ -5,12 +5,12 @@ keywords: BashOnWindows, bash, wsl, windows, windowssubsystem, gnu, linux, ubunt
 ms.date: 07/22/2020
 ms.topic: article
 ms.localizationpriority: high
-ms.openlocfilehash: 15f1528332345f0bea829b9606372ed7346e6dff
-ms.sourcegitcommit: fb79750bd71d6ebaed5203b3de71ba85a67227b1
+ms.openlocfilehash: 930fbdc0b86396f41fbb1189f4a651bb03e05f22
+ms.sourcegitcommit: 6ff046993e9f196cdfa04f5f91130e0e4ff1e7fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88866022"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89427173"
 ---
 # <a name="comparing-wsl-1-and-wsl-2"></a>Comparação entre o WSL 1 e o WSL 2
 
@@ -33,7 +33,7 @@ Recurso | WSL 1 | WSL 2
 
 Já está usando o WSL 1 e deseja atualizar para o WSL 2? Siga as instruções para [atualizar para o WSL 2](./install-win10.md#update-to-wsl-2)!
 
-O WSL 2 só está disponível no Windows 10, versão 2004, Build 19041 ou superiores. Verifique sua versão do Windows selecionando a **tecla do logotipo do Windows + R**, digite **winver**, selecione **OK**. (Ou digite o comando `ver` no prompt de comando do Windows). Você pode precisar [atualizar para a última versão do Windows](ms-settings:windowsupdate). Para compilações inferiores à 19041, não há suporte para WSL.
+O WSL 2 só está disponível no Windows 10, versão 1903, Build 18362 ou superior. Verifique sua versão do Windows selecionando a **tecla do logotipo do Windows + R**, digite **winver**, selecione **OK**. (Ou digite o comando `ver` no prompt de comando do Windows). Você pode precisar [atualizar para a última versão do Windows](ms-settings:windowsupdate). Para builds inferiores ao 18362, não há nenhum suporte para o WSL.
 
 > [!NOTE]
 > O WSL 2 funcionará com o [VMWare 15.5.5+](https://blogs.vmware.com/workstation/2020/05/vmware-workstation-now-supports-hyper-v-mode.html) e o [VirtualBox 6+](https://www.virtualbox.org/wiki/Changelog-6.0).

@@ -5,12 +5,12 @@ keywords: BashOnWindows, bash, wsl, windows, windowssubsystem, ubuntu
 ms.date: 01/20/2020
 ms.topic: article
 ms.localizationpriority: high
-ms.openlocfilehash: 84aecf4f6111cca47ece3c2421be659fb5a27771
-ms.sourcegitcommit: a5534257c236cefeebe86e6b3fc4be0be8fac24e
+ms.openlocfilehash: 2335db4daf8b9c5c67ad04a1fc94339b6c01e546
+ms.sourcegitcommit: 6ff046993e9f196cdfa04f5f91130e0e4ff1e7fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88714848"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89427193"
 ---
 # <a name="troubleshooting-windows-subsystem-for-linux"></a>Solução de problemas do Subsistema Windows para Linux
 
@@ -39,6 +39,12 @@ Para contribuir com a documentação do WSL, envie uma solicitação de pull no 
 Por fim, se o problema estiver relacionado ao Terminal do Windows, ao console do Windows ou à interface do usuário da linha de comando, use o repositório de terminal do Windows: https://github.com/microsoft/terminal
 
 ## <a name="common-issues"></a>Problemas comuns
+
+### <a name="im-on-windows-10-version-1903-and-i-still-do-not-see-options-for-wsl-2"></a>Estou usando o Windows 10, versão 1903, e ainda não vejo as opções relacionadas ao WSL 2. 
+
+É provável que seu computador ainda não tenha feito o backport para o WSL 2. A maneira mais simples de resolver isso é indo até as Configurações do Windows e clicando em "Verificar Atualizações" para instalar as atualizações mais recentes no sistema. Veja as instruções completas sobre como fazer o backport [aqui](https://devblogs.microsoft.com/commandline/wsl-2-support-is-coming-to-windows-10-versions-1903-and-1909/#how-do-i-get-it). 
+
+Se você clicar em "Verificar Atualizações" e ainda não receber a atualização, instale o KB KB4566116 manualmente [seguindo este link](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4566116).  
 
 ### <a name="error-0x1bc-when-wsl---set-default-version-2"></a>Erro: 0x1bc quando `wsl --set-default-version 2`
 Isso pode acontecer quando a configuração de 'Idioma de Exibição' ou 'Localidade do Sistema' não é inglês.

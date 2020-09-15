@@ -5,12 +5,12 @@ keywords: BashOnWindows, bash, wsl, windows, windows subsystem for linux, window
 ms.date: 05/12/2020
 ms.topic: article
 ms.localizationpriority: high
-ms.openlocfilehash: 551cc66b1648a66717163d1d8e19a78d28bff342
-ms.sourcegitcommit: 3fb40fd65b34a5eb26b213a0df6a3b2746b7a9b4
+ms.openlocfilehash: cdb510b8195f18f89ea475889c34850234b7c0e8
+ms.sourcegitcommit: 6ff046993e9f196cdfa04f5f91130e0e4ff1e7fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83235916"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89427183"
 ---
 # <a name="create-a-user-account-and-password-for-your-new-linux-distribution"></a>Criar uma conta de usuário e uma senha para sua nova distribuição do Linux
 
@@ -50,7 +50,7 @@ Se você esqueceu a senha da sua distribuição do Linux:
 
     > Se você precisa atualizar a senha que foi esquecida em uma distribuição que não seja a padrão, use o comando: `wsl -d Debian -u root`, substituindo `Debian` pelo nome da sua distribuição direcionada.
 
-2. Depois que a distribuição do WSL tiver sido aberta no nível raiz dentro do PowerShell, você poderá usar esse comando para atualizar a senha: `passwd`
+2. Após a distribuição do WSL ter sido aberta no nível raiz dentro do PowerShell, você poderá usar este comando para atualizar a senha: `passwd <WSLUsername>`, em que `<WSLUsername>` é o nome de usuário da conta da distribuição cuja senha você esqueceu.
 
 3. Você será solicitado a inserir uma nova senha do UNIX e, em seguida, confirmar essa senha. Depois da informação de que a senha foi atualizada com êxito, feche o WSL dentro do PowerShell usando o comando: `exit`
 
