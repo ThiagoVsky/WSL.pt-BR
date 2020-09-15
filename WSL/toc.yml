@@ -40,6 +40,8 @@
       href: enterprise.md
     - name: Criar uma distribuição personalizada
       href: build-custom-distro.md
+    - name: Montar um disco no WSL 2 (Versão prévia)
+      href: wsl2-mount-disk.md
     - name: Referência de linha de comando
       href: reference.md
 - name: Perguntas frequentes
