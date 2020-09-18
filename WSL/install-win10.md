@@ -48,6 +48,18 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ```
 
 **Reinicie** o computador para concluir a instalação do WSL e a atualização para o WSL 2.
+### Download the Linux kernel update package
+
+1. Faça o download do último pacote:
+    - [Pacote de tualização para o kernel Linux WSL2 para computadores x64](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+
+    > [!NOTE]
+    > [Se estiver usando um computador com arquitetura ARM64, utilize este pacote](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_arm64.msi). Se não tiver certeza de qual tipo de computador utiliza, abra o Command Prompt ou o PowerShell e insira: `systeminfo | find "System Type"`.
+
+2. Execute o pacote de isntalação baixado no passo anterior. (Duplo clique para executar - será solicitada permissão de administrador, selecione ‘sim’ para aprovar a instalação.)
+
+Uma vez completa a instalação, vá para o próximo passo - configurar WSL2 como a versão padrão quando instalar novas distrubuições do linux. (Pule este passo se quuiser que novas instalações do Linux utilizem por padrão o WSL1).
+
 
 ### <a name="set-wsl-2-as-your-default-version"></a>Definir o WSL 2 como sua versão padrão
 
